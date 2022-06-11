@@ -1,15 +1,31 @@
 {
-  "name": "scss",
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-sass": "^5.1.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-watch": "^5.0.1",
+    "sass": "^1.52.3"
+  },
+  "name": "deluxe_house",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maxmotsyk/Deluxe_house.git"
+  },
+  "keywords": [
+    "Maks"
+  ],
+  "author": "Maks",
   "license": "ISC",
-  "dependencies": {
-    "gulp": "^4.0.2"
-  }
+  "bugs": {
+    "url": "https://github.com/maxmotsyk/Deluxe_house/issues"
+  },
+  "homepage": "https://github.com/maxmotsyk/Deluxe_house#readme",
+  "description": ""
 }
